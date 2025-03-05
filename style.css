@@ -1,0 +1,187 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+BE+VLG:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+}
+.fa-music{
+    margin-left: 2em;
+    font-size: 100%;
+}
+.navbar-nav .nav-item
+{
+   display: flex;
+   justify-content: flex-end;
+}
+.fa-magnifying-glass{
+    font-size: 2em;
+    color: aliceblue;
+    margin-right: 4%;
+}
+@media screen and (max-width: 576px) {
+    .fa-magnifying-glass{
+        visibility: hidden;
+    }
+}
+.section-2-ground{
+    height: 100vh;
+    width: 100%;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+}
+.section-2-heading{
+    color: yellow;
+    font-weight: bold;
+ }
+ .section-2-textarea{
+    width: fit-content;
+    margin-top: 5%;
+    padding-bottom: 5%;
+    font-size: 10px;
+ }
+ @media screen and (max-width: 576px) {
+    .section-2-ground{
+    /* height: 70vh;
+    width: 100%;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size:cover; */
+    height: 100%;
+    width: 100%;
+    }
+    
+}   
+.section-2-button{
+    background-color: orangered;
+    color: white;
+    
+    font-size: 7px;
+
+    /* position: relative;
+    left: 10%; */
+}
+.section-2-button:hover{
+   background-color: whitesmoke;
+   color: orangered;
+}
+.section-3-background{
+background-image: url('images/red-yellow-watercolor.jpg');
+}
+.card-color{
+    background-color: rgb(54, 52, 52);
+    color: white;
+    font-weight: 400;
+}
+.section4{
+    color:white;
+    padding-bottom: 2em;
+    background-color:rgb(48, 47, 47);
+}
+.section-4-crad{
+   border: 1px solid red;
+   width: 20em;
+   background-image: url('images/red-yellow-watercolor.jpg');
+   padding-bottom: 1em;
+}
+.section4-icon{
+    width: 10em;
+}
+.section4-button{
+    background-color: rgb(48, 47, 47);
+    color: white;
+}
+.section4-button:hover{
+    background-color: white;
+    color: black;
+}
+.section5{
+    background-image: url('images/red-yellow-watercolor.jpg');
+    color: white;
+}
+.section5-button{
+       background-color: rgb(48, 47, 47);
+       color: white;
+}
+.section5-button:hover{
+     background-color: white;
+    color: rgb(48, 47, 47);
+}
+@media screen and (max-width: 576px) {
+    .section5-div1{
+        padding-bottom: 1em;
+        border-bottom: 3px solid black;
+    }
+}
+.section6{
+    background-color:rgb(48, 47, 47); 
+}
+.section-7{
+    height: 80vh;
+    background-position: center;
+    background-image: url('images/people-taking-part-dance-therapy-class.jpg');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 576px) {
+    .section7{
+        height: 30vh;
+        background-image: url('images/people-taking-part-dance-therapy-class.jpg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+.section8{
+     background-image: url('images/red-yellow-watercolor.jpg');
+     background-size: cover;
+     height: 50vh;
+     
+}
+.section8-button{
+    background-color: rgb(48, 47, 47);
+    color: white;
+    margin-top:2%;
+}
+.section8-button:hover{
+    background-color: white;
+    color: black;
+}
+.section8-input{
+    height: 2.5em;
+    width: 18em;
+    margin-bottom: 2%;
+    outline: none;
+    border-radius: 10px;
+}
+footer{
+    background-color:rgb(48, 47, 47);
+}
+.fa-brands{
+    font-size: 1em;
+    margin: 1em;
+    background:whitesmoke ;
+    color:rgb(48, 47, 47);
+    padding:1%;
+    border-radius: 45%;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    opacity: 20%;
+    transform: translateY(-10px);
+}
+@media screen and (max-width: 576px) {
+   .fa-brands{
+    font-size: 2em;
+    margin: 1em;
+    background:whitesmoke ;
+    color:rgb(48, 47, 47);
+    padding:1%;
+    border-radius: 45%;
+    cursor: pointer;
+   }
+}
+.hr-tag{
+    color: white;
+}
